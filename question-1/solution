@@ -11,6 +11,12 @@ public Account (String requestedname){
     username=requestedName;
   }
 
-  
+  public String getShortenedName(){
+    String f=username;
+    while (!f.indexOf("-")==-1){
+      f=f.substring(0,f.indexOf("-")-1);
+    }
+    return f;
+  }
   
 }
