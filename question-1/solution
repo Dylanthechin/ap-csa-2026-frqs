@@ -1,0 +1,16 @@
+public Account (String requestedname){
+
+  private String username;
+
+  public Account(String requestedName){
+    int num=1;
+    while (!isAvailable(requestedName)){
+      requestedName=requestedName+num;
+      num++;
+    }
+    username=requestedName;
+  }
+
+  
+  
+}
