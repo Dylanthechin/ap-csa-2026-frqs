@@ -1,0 +1,15 @@
+public class Bottle{
+
+  private double water;
+
+  public Bottle(double amount){
+    water=amount;
+  }
+
+  public double updateAmount(double upd){
+    if (upd>water){
+      water-=upd;
+    }
+    return water;ewDw
+  }
+}
