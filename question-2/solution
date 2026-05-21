@@ -10,6 +10,6 @@ public class Bottle{
     if (upd>water){
       water-=upd;
     }
-    return water;ewDw
+    return water;
   }
 }
